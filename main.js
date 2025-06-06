@@ -62,4 +62,3 @@ function geraSenha() {
     }
     campoSenha.value = senha;
 }
-
