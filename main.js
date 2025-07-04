@@ -72,12 +72,12 @@ let entropia = tamanhoSenha * Math.log2(tamanhoAlfabeto);
 console.log(entropia);
 forcaSenha.classList.remove('forte','media','fraca');
 
-if (entropia > 11){
+if (entropia > 57){
 forcaSenha.classList.add('forte');
 }
-else if (entropia > 5 && entropia < 12 ){
+else if (entropia > 35 && entropia < 57 ){
 forcaSenha.classList.add('media');
-} else if (entropia <= 5){
+} else if (entropia <= 35){
 
 forcaSenha.classList.add('fraca');
 }
